@@ -5,3 +5,8 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def search_word(str, char)
+  puts 'El caracter se encuentra dentro del string' if str.include?(char)
+end
+search_word(cadena, caracter)

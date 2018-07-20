@@ -1,18 +1,16 @@
-# Un método puede llamar a otros métodos, modifica el siguiente código
-# para que al llamar a un sólo método se imprima:
-# *****
-# *****
-# *****
-# *****
-# *****
-
+# Un metodo puede llamar a otros metodos, modifica el siguiente codigo
+# para que al llamar a un solo metodo se imprima:
+# *****
+# *****
+# *****
+# *****
+# *****
 def draw_line(size)
-  '*' * size
+  print '*' * size
 end
 
 def draw_lines(size)
-  size.times { }
+  size.times { puts draw_line(size) }
 end
 
-draw_line 2
-draw_lines 10
+draw_lines(5)

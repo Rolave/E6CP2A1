@@ -5,4 +5,5 @@
 # 4. Intercalar los elementos: [[1, "lunes"], [2, "martes"], [3, "miércoles"], [9, "jueves"], [12, "viernes"], [31, "sábado"], ["domingo", "domingo"]]
 
 a = [1, 2, 3, 9, 12, 31, 'domingo']
-b = %w[lunes martes miércoles jueves viernes sábado domingo]
+b = %w[lunes martes miércoles jueves viernes sábado domingo] # Esto es un array
+
